@@ -1,4 +1,4 @@
-package myplugin.external;
+package noessentials.external;
 
 import java.io.File;
 import java.io.IOException;

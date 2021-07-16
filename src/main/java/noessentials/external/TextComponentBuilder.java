@@ -1,4 +1,4 @@
-package myplugin.external;
+package noessentials.external;
 
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.ClickEvent;

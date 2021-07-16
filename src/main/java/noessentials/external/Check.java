@@ -1,4 +1,4 @@
-package myplugin.external;
+package noessentials.external;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;

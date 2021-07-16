@@ -1,10 +1,10 @@
-package myplugin;
+package noessentials;
 
-import myplugin.command.Command_Tabolator;
-import myplugin.command.Command_KeksGauner;
-import myplugin.external.InitializeManager;
-import myplugin.listener.Event_Join;
-import myplugin.utils.Data;
+import noessentials.command.Command_Enderchest;
+import noessentials.command.Command_Gamemode;
+import noessentials.external.InitializeManager;
+import noessentials.listener.Event_Join;
+import noessentials.utils.Data;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -26,9 +26,11 @@ public final class Main extends JavaPlugin {
 
         InitializeManager im = new InitializeManager();
         // Register a Command
-        String pluginPrefix = "keksgauner";
-        im.registerCommand(pluginPrefix, new Command_KeksGauner("keksgauner"));
-        im.registerCommand(pluginPrefix, new Command_Tabolator("tabolator"));
+        String pluginPrefix = "noessentials";
+        im.registerCommand(pluginPrefix, new Command_Gamemode("gm"));
+        im.registerCommand(pluginPrefix, new Command_Enderchest("ec") {
+        });
+        //im.registerCommand(pluginPrefix, new Command_Tabolator("tabolator"));
 
         // Register a Event
         im.registerEvent(this, new Event_Join());

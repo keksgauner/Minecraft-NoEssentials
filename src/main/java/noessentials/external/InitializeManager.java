@@ -1,4 +1,4 @@
-package myplugin.external;
+package noessentials.external;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;

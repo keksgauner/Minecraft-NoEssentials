@@ -1,6 +1,6 @@
-name: MyPlugin
+name: NoEssentials
 version: ${project.version}
-main: myplugin.Main
+main: noessentials.Main
 api-version: 1.17
 authors: [ KeksGauner ]
 description: '</>'
